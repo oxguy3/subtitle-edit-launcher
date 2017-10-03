@@ -28,11 +28,11 @@ During download of Subtitle Edit, this directory will also briefly contain lates
 * Create some sort of interface for editing preferences (having users edit config.plist is not ideal).
 * Build proper .DMG files to release the app in.
 
-# Contributing
+## Contributing
 
 To contribute to this repository, you'll need to open the .app folder using macOS' built-in utility application Script Editor (otherwise you'll have a hell of a time editing the compiled .scpt file). All contributions to this project will be licensed under GNU GPL v3 (see below).
 
-# License
+## License
 
 Subtitle Edit Launcher
 Copyright (C) 2017 Hayden Schiff
@@ -50,7 +50,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-## Licenses for other components
+### Licenses for other components
 
 [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) is also released under GNU General Public License version 3.0.
 
