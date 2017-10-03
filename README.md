@@ -29,6 +29,7 @@ During download of Subtitle Edit, this directory will also briefly contain lates
 * Build proper .DMG files to release the app in.
 * Add option to install mplayer.
 * More thorough testing (what happens when internet/GitHub is down? are there any missing dependencies for Wine? etc)
+* i18n of dialog messages?
 
 ## Contributing
 

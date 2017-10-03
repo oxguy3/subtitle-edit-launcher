@@ -113,13 +113,13 @@ if myWinePath ≠ false then
 		end if
 
 		if (count of availableDownloadNames) = 0 then
-			return display alert "Can't download Subtitle Edit" message "The latest release of Subtitle Edit on GitHub has no downsloads that this app knows how to install. Tweet a screenshot of this error to @oxguy3 and he'll get it fixed in a jiffy." as critical
+			return display alert "Can't download Subtitle Edit" message "The latest release of Subtitle Edit on GitHub has no downloads that this app knows how to install. Tweet a screenshot of this error to @oxguy3 and he'll get it fixed in a jiffy." as critical
 		end if
 
 		-- prompt user to pick version of Subtitle Edit to install
 		set myDownloadName to false
 		repeat while myDownloadName = false
-			set myDownloadName to (choose from list availableDownloadNames with prompt "Which version of Subtitle Edit would you like to download?")
+			set myDownloadName to (choose from list availableDownloadNames with prompt "Welcome to Subtitle Edit! Which version would you like to download?")
 		end repeat
 		set myDownloadName to item 1 of myDownloadName
 		set myDownloadUrl to false
