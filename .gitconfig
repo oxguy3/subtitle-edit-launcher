@@ -1,3 +1,0 @@
-[diff "scpt"]
-  textconv = osadecompile
-  binary=true
