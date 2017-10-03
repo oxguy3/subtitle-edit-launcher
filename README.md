@@ -27,10 +27,14 @@ During download of Subtitle Edit, this directory will also briefly contain lates
 * Get some sort of progress indicator for when Subtitle Edit is downloading or launching.
 * Create some sort of interface for editing preferences (having users edit config.plist is not ideal).
 * Build proper .DMG files to release the app in.
+* Add option to install mplayer.
+* More thorough testing (what happens when internet/GitHub is down? are there any missing dependencies for Wine? etc)
 
 ## Contributing
 
-To contribute to this repository, you'll need to open the .app folder using macOS' built-in utility application Script Editor (otherwise you'll have a hell of a time editing the compiled .scpt file). All contributions to this project will be licensed under GNU GPL v3 (see below).
+To contribute to this repository, you'll want to edit files in _app/_. The AppleScript code can be found in _app/Contents/Resources/Scripts/_. To build the app, cd to the root of the respository and run `./bin/build.sh`, and the app will be built inside _dist/_.
+
+All contributions to this project will be licensed under GNU GPL v3 (see below).
 
 ## License
 
