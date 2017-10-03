@@ -101,6 +101,7 @@ if myWinePath ≠ false then
 		end repeat
 
 		-- build list of download options to present to the user
+		-- TODO: make this code DRYer
 		set availableDownloadNames to {}
 		if item 1 of downloadUrls ≠ "null" then
 			set end of availableDownloadNames to "Basic"
