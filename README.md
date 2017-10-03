@@ -2,11 +2,7 @@
 
 This is a wrapper application that makes it very easy to run Subtitle Edit on Mac OS X / macOS. It uses Wine to run the Windows app on Mac.
 
-## Installation
-
-1. Install Wine (if you don't have it already). The easiest way to get it is to visit [the official download site](https://dl.winehq.org/wine-builds/macosx/download.html), then download and run "Installer for 'Wine Stable'". (for nerds: if you installed Wine with Homebrew or MacBottler, that should work as well)
-1. Download [the latest version of this repository](https://github.com/oxguy3/subtitle-edit-launcher/archive/master.zip), unzip it, and move "Subtitle Edit Launcher.app" to your Applications folder (or wherever you like).
-1. Run "Subtitle Edit Launcher.app"! The first time it runs, it'll set itself up with [the latest version of Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases), allowing you to pick which version you want. It'll take a few moments to download, and then it'll launch Subtitle Edit (which will also take a few moments to start).
+You can get the latest version of Subtitle Edit Launcher over at [the releases page](https://github.com/oxguy3/subtitle-edit-launcher/releases).
 
 ## Troubleshooting
 
@@ -34,6 +30,8 @@ During download of Subtitle Edit, this directory will also briefly contain lates
 ## Contributing
 
 To contribute to this repository, you'll want to edit files in _app/_. The AppleScript code can be found in _app/Contents/Resources/Scripts/_. To build the app, cd to the root of the respository and run `./bin/build.sh`, and the app will be built inside _dist/_.
+
+If you would like to create a DMG of the app for distribution, run `./bin/build-dmg.sh 1.2.3` (replacing 1.2.3 with the version number of your build). This script requires that you have [create-dmg by sindresorhus](https://github.com/sindresorhus/create-dmg) installed.
 
 All contributions to this project will be licensed under GNU GPL v3 (see below).
 
