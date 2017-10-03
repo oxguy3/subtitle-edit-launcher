@@ -31,7 +31,7 @@ During download of Subtitle Edit, this directory will also briefly contain lates
 
 To contribute to this repository, you'll want to edit files in _app/_. The AppleScript code can be found in _app/Contents/Resources/Scripts/_. To build the app, cd to the root of the respository and run `./bin/build.sh`, and the app will be built inside _dist/_.
 
-If you would like to create a DMG of the app for distribution, run `./bin/build-dmg.sh 1.2.3` (replacing 1.2.3 with the version number of your build). This script requires that you have [create-dmg by sindresorhus](https://github.com/sindresorhus/create-dmg) installed.
+(**THIS DOESN'T WORK YET**) If you would like to create a DMG of the app for distribution, run `./bin/build-dmg.sh 1.2.3` (replacing 1.2.3 with the version number of your build). This script requires that you have [create-dmg by sindresorhus](https://github.com/sindresorhus/create-dmg) installed.
 
 All contributions to this project will be licensed under GNU GPL v3 (see below).
 
